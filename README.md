@@ -1,8 +1,6 @@
 # JenstreetmanPalindrome
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/jenstreetman_palindrome`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+`jenstreetman_palindrome` is a sample Ruby gem created using Michael Hartl's [*Learn Enough Ruby to Be Dangerous*](https://www.learnenough.com/ruby-tutorial) tutorial.
 
 ## Installation
 
@@ -22,7 +20,28 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+`jenstreetman_palindrome` adds a `palindrome?` method to the `String` class, and can be used as follows:
+
+```
+$ irb
+>> require 'mhartl_palindrome'
+>> "honey badger".palindrome?
+=> false
+>> "deified".palindrome?
+=> true
+>> "Able was I, ere I saw Elba.".palindrome?
+=> true
+>> phrase = "Madam, I'm Adam."
+>> phrase.palindrome?
+=> true
+```
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+
+
 
 ## Development
 
@@ -32,4 +51,10 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jenstreetman_palindrome.
+Bug reports and pull requests are welcome on GitHub at https://github.com/jenstreetman/jenstreetman_palindrome.
+
+
+
+
+
+
